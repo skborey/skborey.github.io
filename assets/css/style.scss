@@ -9,11 +9,10 @@ src: url("proxima-nova-soft.otf");
 
 body {
   font-family: "ProximaNovaSoft"
-    
-  > header {
-    text-align: center;
-    > img {
-      max-width: 50%;
-    }
-  }
+}
+body>header {
+  text-align: center;
+}
+body>header>img {
+  max-width: 50%;
 }
