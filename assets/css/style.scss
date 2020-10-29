@@ -10,9 +10,9 @@ src: url("proxima-nova-soft.otf");
 body {
   font-family: "ProximaNovaSoft"
 }
-body>header {
+h1, p {
   text-align: center;
 }
-body>header>img {
+img {
   max-width: 50%;
 }
