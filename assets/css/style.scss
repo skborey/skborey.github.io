@@ -2,3 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@font-face {
+font-family: "NovaSoft";
+src: url("proxima-nova-soft.otf");
+}
