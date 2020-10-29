@@ -1,6 +1,8 @@
-- Web Foundamental [documents](https://developers.google.com/web)
-- Vector resource for UI/Dev [collections](https://dev.to/lukekyl/designers-take-free-vector-resources-for-devs-5fgp)
-- Design resource for UI/UX/Dev [collections](https://github.com/bradtraversy/design-resources-for-developers)
+Web Foundamental [documents](https://developers.google.com/web)
+
+Vector resource for UI/Dev [collections](https://dev.to/lukekyl/designers-take-free-vector-resources-for-devs-5fgp)
+
+Design resource for UI/UX/Dev [collections](https://github.com/bradtraversy/design-resources-for-developers)
 
 <details><summary>Service Worker</summary>
 <p>
