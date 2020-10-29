@@ -1,4 +1,4 @@
-[Web Foundemental](https://developers.google.com/web)
+[Web Foundamental](https://developers.google.com/web)
 
 <details><summary>Service Worker</summary>
 <p>
