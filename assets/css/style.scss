@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 @font-face {
-font-family: "NovaSoft";
+font-family: "ProximaNovaSoft";
 src: url("proxima-nova-soft.otf");
+}
+
+body {
+  font-family: "ProximaNovaSoft"
 }
