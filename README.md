@@ -57,3 +57,11 @@ server {
 }
 </code>
 </details>
+
+<details><summary>Scripts</summary>
+  <strong>Android-Studio Linux</strong>
+    <ul>
+    <li> sudo apt install openjdk-11-jdk</li>
+    <li> sudo snap install android-studio --classic</li>
+    </ul>
+</details>
