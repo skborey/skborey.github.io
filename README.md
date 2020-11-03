@@ -4,6 +4,8 @@ Vector resource for UI/Dev [collections](https://dev.to/lukekyl/designers-take-f
 
 Design resource for UI/UX/Dev [collections](https://github.com/bradtraversy/design-resources-for-developers)
 
+Tools for Designer [collections](https://digitalsynopsis.com/design/useful-tools-for-designers/)
+
 <details><summary>Service Worker</summary>
 <p>
   
