@@ -67,3 +67,9 @@ server {
     <li> sudo snap install android-studio --classic</li>
     </ul>
 </details>
+
+### Reminder
+
+```
+- signing JWT will be base on payload, if payload the same jwt will be the same, mostly iat is used to ensure it will produce different jwt
+```
