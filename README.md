@@ -68,6 +68,8 @@ server {
     </ul>
 </details>
 
+[The 10 most stared github 2020](https://hackernoon.com/the-ten-most-starred-github-repositories-mo19343d)
+
 ### Reminder
 
 ```
