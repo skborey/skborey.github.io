@@ -75,3 +75,12 @@ server {
 ```
 - signing JWT will be base on payload, if payload the same jwt will be the same, mostly iat is used to ensure it will produce different jwt
 ```
+
+### vscode
+
+- remvoe unused import js setting.json, [reference](https://www.linkedin.com/pulse/how-remove-unused-imports-vscode-kaleem-elahi?articleId=6655380918318002176)
+```
+ "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+ ```
