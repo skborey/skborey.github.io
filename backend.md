@@ -12,7 +12,7 @@ framework that we can use with any programming language.
 ↓
 
 ###### API Architectural Styles
-  - SOAP (1999) - _HTTP_
+  - SOAP - aslso as a protocol (1999) - _HTTP_
   - REST (2000) - _HTTP_
   - GraphQL (2015) - _HTTP_
   - gRPC (2016) - _RPC_
