@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-header {
+.markdown-body > h1:first-of-type {
   display: none;
 }
