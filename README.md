@@ -14,16 +14,33 @@ S o f t w a r e&nbsp;&nbsp;&nbsp;D e v e l o p e r
 - Chat platform integration e.g. LINE LIFF App, Telegram notification
 - CRM (WordPress)
 
-### S H O W C A S E S :rocket: 
+### S H O W C A S E S
 
-- [Chrome extensions](https://github.com/skborey/chrome-extension)
+Chrome extensions [Link](https://github.com/skborey/chrome-extension)
 
-<hr />
+### E D U C A T I O N S
 
-<details>
-<summary>H O B B Y</summary>
+<p>
+• <img alt="malaysia" width="20" src="https://img.icons8.com/external-itim2101-lineal-itim2101/64/null/external-petronas-twin-tower-landmarks-itim2101-lineal-itim2101.png"/>
+2018 Malaysia - Software Engineer Internship
+</p>
+<p>
+• <img alt="japan" width="20" src="https://img.icons8.com/external-glyph-wichaiwi/64/null/external-japan-asian-countries-landmarks-glyph-wichaiwi.png"/>
+2017 Japan - Summer Exchange Program
+</p>
+
+<p>
+• <img alt="thai" width="20" src="https://img.icons8.com/external-others-pike-picture/50/null/external-antique-thailand-others-pike-picture-2.png"/>
+2014 Thaialand - Bachelor of Science in Information Technology
+</p>
+<p>
+• <img alt="cambodia" width="20" src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/null/external-angkor-wat-landmark-wanicon-lineal-wanicon.png"/> 2012 Cambodia - Foundation of Engineering
+</p>
+
+### H O B B Y
+
 Interested in general psychology in relationship, human being, superstition.
-</details>
+
 
 <div id="footer" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
