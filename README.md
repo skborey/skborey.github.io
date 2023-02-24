@@ -31,7 +31,7 @@ Chrome extensions [Link](https://github.com/skborey/chrome-extension)
 
 <p>
 • <img alt="thai" width="20" src="https://img.icons8.com/external-others-pike-picture/50/null/external-antique-thailand-others-pike-picture-2.png"/>
-2014 Thaialand - Bachelor of Science in Information Technology
+2014 Thailand - Bachelor of Science in Information Technology
 </p>
 <p>
 • <img alt="cambodia" width="20" src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/null/external-angkor-wat-landmark-wanicon-lineal-wanicon.png"/> 2012 Cambodia - Foundation of Engineering
