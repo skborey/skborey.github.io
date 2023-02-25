@@ -12,7 +12,7 @@ S o f t w a r e&nbsp;&nbsp;&nbsp;D e v e l o p e r
 - Backend development for back office management system
 - Web Development with React
 - Chat platform integration e.g. LINE LIFF App, Telegram notification
-- CRM (WordPress)
+- CMS (WordPress)
 
 ### S H O W C A S E S
 
