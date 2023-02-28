@@ -23,3 +23,53 @@ framework that we can use with any programming language.
   - ExpressJs: implement REST API style
   - RabbitMQ: implement meessaging protocol (AMQP 0.9.1), also has plugg-in to off AMQP 1.0, HTTP, STOMP, and MQTT
   - Kafka: implement binary protocol over the TCP
+
+## Clean Code
+
+**OOP**
+- Inheritence
+- Pholymorphism
+- Abstraction
+- Encapsulation
+
+**SOLID**
+- The Single Responsibility (SRP)
+- The Open-Close Principle (OCP)
+- The Liskov Substitution Principle (LSP): All sub-class conditions should not break each other.
+This principle prevent from create bug when some case real world understanding cannot transfer to code completely as expected.
+e.g. about Rectangle and Square geometry class.
+ ```java
+// 1. In math, square is subclass of rectangle. So we can do following inheritence to reduce code
+class Rectangle {
+  public setHeight (float h) { this.height = h; }
+  public setWidth (float w) { this.width = w; }
+  public float area () { return this.height * this.width; }
+}
+
+class Square extends Rectangle {}
+
+// 2. But since type of Square has a specific condition that all edge must be equal,
+// so we need to make sure that height = width
+class Sqare extends Rectangle {
+  public setHeight (float h) { this.setSize(h); }
+  public setWidth (float w) { this.setSize(w); }
+  private setSize (float s) { this.height = s; this.width = s;}
+}
+
+// 3. Now when using it
+void draw (Rectangle rec) {
+  rec.setHeight(2);
+  rec.setWidth(3);
+  float area = rec.area();
+}
+
+/*
+* This's can be a bug, when **rec** is type of Square, it'll calculate differently. Area will be 3x3=9 NOT 2x3.
+* So, relationship between Square and Rectangle is break the Liskove Substitution Principle.
+* Liskov Subsitution Principle will help to make sure this kind of confusion/bug.
+* So, when doing the interitance, make sure that all sub class object can reduce the superclass method in same behavior,
+* and all subclass object can replace(substiute) each other without breaking the expected result.
+**/
+ ```
+- Interface Segregation Principle (ISP)
+- Dependency Invension Principle (DIP)
