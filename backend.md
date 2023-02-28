@@ -35,7 +35,7 @@ framework that we can use with any programming language.
 **SOLID**
 - The Single Responsibility (SRP)
 - The Open-Close Principle (OCP)
-- The Liskov Substitution Principle (LSP): All sub-class conditions should not break each other.
+- The Liskov Substitution Principle (**LSP**): All sub-class conditions should not break each other.
 This principle prevent from create bug when some case real world understanding cannot transfer to code completely as expected.
 e.g. about Rectangle and Square geometry class.
  ```java
@@ -50,7 +50,7 @@ class Square extends Rectangle {}
 
 // 2. But since type of Square has a specific condition that all edge must be equal,
 // so we need to make sure that height = width
-class Sqare extends Rectangle {
+class Square extends Rectangle {
   public setHeight (float h) { this.setSize(h); }
   public setWidth (float w) { this.setSize(w); }
   private setSize (float s) { this.height = s; this.width = s;}
@@ -71,5 +71,26 @@ void draw (Rectangle rec) {
 * and all subclass object can replace(substiute) each other without breaking the expected result.
 **/
  ```
-- Interface Segregation Principle (ISP)
+- Interface Segregation Principle (**ISP**): Seperate large interface into specific interface. When implementing, we can pick only neccessary interfaces. No code should be forced to depend on methods it does not use. e.g.
+```java
+// 1. Large interfce that include everything relate to vechicle
+interface Vehicle {
+    public void refuel();
+    public void speed();
+}
+class Car implements Vehicle {}
+class Bike implements Vehicle {}
+
+// 2. Bike will be fource to implement the refuel() method that is not necessary.
+// So we better seperate into 2 different interfaces as below and implement accordingly.
+interface BaseVehicle {
+    public void speed();
+}
+interface FuelVecicle {
+    public void refuel();
+}
+class Car implements BaseVehicle, FuelVecicle {}
+class Bike implements BaseVehicle {}
+```
+ISP will help, come to solve the problem in recompile non-neccesary code.
 - Dependency Invension Principle (DIP)
