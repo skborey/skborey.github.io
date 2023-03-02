@@ -28,6 +28,14 @@ framework that we can use with any programming language.
 
 In OOP there few characteristics that descript that is object oriented programming e.g. pholymorphism, abstraction. But it not tell about when should we use it. SOLID will tell us when should apply those characteristics to get best result.
 
+OOP | SOLID
+--- | --- 
+_ | Single Responsibility Principle 
+Encapsolution | Open-Close Principle 
+Pholymorphism | Liskov Substitution Principle 
+Inheritent | Interface Segregation Principle 
+Abstraction | Dependency Inversion Principle 
+
 **OOP**
 - Inheritence
 - Pholymorphism
@@ -35,8 +43,8 @@ In OOP there few characteristics that descript that is object oriented programmi
 - Encapsulation
 
 **SOLID**
-- The Single Responsibility (SRP)
-- The Open-Close Principle (OCP)
+- The Single Responsibility (**SRP**)
+- The Open-Close Principle (**OCP**)
 - The Liskov Substitution Principle (**LSP**): All sub-class conditions should not break each other.
 This principle prevent from create bug when some case real world understanding cannot transfer to code completely as expected.
 e.g. about Rectangle and Square geometry class.
@@ -95,4 +103,4 @@ class Car implements BaseVehicle, FuelVecicle {}
 class Bike implements BaseVehicle {}
 ```
 ISP will help, come to solve the problem in recompile non-neccesary code.
-- Dependency Inversion Principle (DIP): The high level modules should not depend on low level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions. 
+- Dependency Inversion Principle (**DIP**): The high level modules should not depend on low level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions. 
