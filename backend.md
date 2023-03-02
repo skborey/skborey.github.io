@@ -26,6 +26,8 @@ framework that we can use with any programming language.
 
 ## Clean Code
 
+In OOP there few characteristics that descript that is object oriented programming e.g. pholymorphism, abstraction. But it not tell about when should we use it. SOLID will tell us when should apply those characteristics to get best result.
+
 **OOP**
 - Inheritence
 - Pholymorphism
@@ -93,4 +95,4 @@ class Car implements BaseVehicle, FuelVecicle {}
 class Bike implements BaseVehicle {}
 ```
 ISP will help, come to solve the problem in recompile non-neccesary code.
-- Dependency Invension Principle (DIP)
+- Dependency Inversion Principle (DIP): The high level modules should not depend on low level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions. 
