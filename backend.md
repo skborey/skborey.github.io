@@ -32,13 +32,13 @@ OOP | SOLID
 --- | --- 
 _ | Single Responsibility Principle 
 Encapsolution | Open-Close Principle 
-Pholymorphism | Liskov Substitution Principle 
+Polymorphism | Liskov Substitution Principle 
 Inheritent | Interface Segregation Principle 
 Abstraction | Dependency Inversion Principle 
 
 **OOP**
 - Inheritence
-- Pholymorphism
+- Polymorphism
 - Abstraction
 - Encapsulation
 
