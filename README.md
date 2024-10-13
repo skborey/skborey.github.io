@@ -9,14 +9,15 @@ S o f t w a r e&nbsp;&nbsp;&nbsp;D e v e l o p e r
 
 ### W O R K S <img alt="location" width="20" src="https://img.icons8.com/external-prettycons-lineal-prettycons/49/null/external-location-pin-essentials-prettycons-lineal-prettycons.png"/> B a n g k o k
 
-- Backend development for back office management system
+- Full Stack Development
 - Web Development with React
 - Chat platform integration e.g. LINE LIFF App, Telegram notification
-- CMS (WordPress)
 
 ### S H O W C A S E S
 
 Chrome extensions [Link](https://github.com/skborey/chrome-extension)
+
+AWS learner
 
 ### E D U C A T I O N S
 
@@ -39,7 +40,7 @@ Chrome extensions [Link](https://github.com/skborey/chrome-extension)
 
 ### H O B B Y
 
-Interested in general psychology in relationship, human being, superstition.
+Running 🏃
 
 
 <div id="footer" align="center">
