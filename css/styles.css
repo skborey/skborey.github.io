@@ -12939,3 +12939,9 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(64, 9, 9, 0.3);
 }
+
+.blogs {
+  background-color: #ffffff75;
+  padding: 3rem 2rem 1rem 2rem;
+  border-radius: 0.5rem;
+}
