@@ -12892,12 +12892,13 @@ body {
 }
 
 .text-primary {
-  color: darkorange !important;
+  color: #400909 !important;
 }
 
 .skill-tag {
   display: inline-block;
-  background-color: #400909;
+  background-color: #6f864b;
+  /*#400909; */
   color: white;
   padding: 8px 18px;
   border-radius: 50px;
@@ -12907,6 +12908,32 @@ body {
   transition: all 0.3s ease;
 }
 
+.skill-tag2 {
+  display: inline-block;
+  background-color: #40090963;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.skill-tag3 {
+  display: inline-block;
+  background-color: #2466a082;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.skill-tag3:hover,
+.skill-tag2:hover,
 .skill-tag:hover {
   background-color: #6b1c1c;
   transform: translateY(-2px);
