@@ -9144,13 +9144,14 @@ fieldset:disabled .btn {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
   background-color: var(--paper-white);
-  background-image: url("/assets/img/bg-4.jpg");
+  /* background-image: url("/assets/img/bg-4.jpg"); */
   /* Scale the image to cover the entire container (maintaining aspect ratio) */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+  border-top: 4px dashed #2A7B9B;
 }
 
 .bg-secondary {
