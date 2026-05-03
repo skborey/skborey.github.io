@@ -9119,8 +9119,20 @@ fieldset:disabled .btn {
 .bg-primary {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
-  background-color: var(--paper-white);
+  /* background-color: var(--paper-white); */
   background-image: url("/assets/img/bg-4.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.bg-hobby {
+  --bs-bg-opacity: 1;
+  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: var(--paper-white);
+  background-image: url("/assets/img/bg-4.jpg");
   /* Scale the image to cover the entire container (maintaining aspect ratio) */
   background-size: cover;
   background-position: center center;
