@@ -12948,3 +12948,7 @@ body {
   padding: 3rem 2rem 1rem 2rem;
   border-radius: 0.5rem;
 }
+
+.bg-transparent {
+  background-color: #ffffff75 !important;
+}
