@@ -12762,6 +12762,7 @@ html {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   }
 
   #mainNav.navbar-shrink .navbar-brand {

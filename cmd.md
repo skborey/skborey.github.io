@@ -15,4 +15,3 @@ k get cofnigmap
 ```bash
 k get cofnigmap
 ```
-
