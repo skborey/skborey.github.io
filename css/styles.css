@@ -9122,7 +9122,7 @@ fieldset:disabled .btn {
 
 .bg-primary-reverse {
   background: #2A7B9B;
-  background: linear-gradient(140deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 91%, rgba(237, 221, 83, 1) 100%);
+  background: linear-gradient(153deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%);
 }
 
 .bg-primary {
@@ -9133,7 +9133,7 @@ fieldset:disabled .btn {
   background: #2A7B9B;
   /* background: linear-gradient(153deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); */
   /* background: linear-gradient(328deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); */
-  background: linear-gradient(327deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 78%, rgba(237, 221, 83, 1) 100%);
+  background: linear-gradient(327deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 85%, rgba(237, 221, 83, 1) 100%);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -12771,7 +12771,7 @@ html {
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff !important;
-    background: #2c3e50;
+    /* background: #2c3e50; */
     /* Hex code */
   }
 
@@ -12779,7 +12779,7 @@ html {
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff !important;
-    background: #2c3e50;
+    /* background: #2c3e50; */
     /* Hex code */
   }
 
