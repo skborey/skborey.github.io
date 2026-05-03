@@ -3439,8 +3439,8 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #400909;
-  --bs-btn-border-color: #400909;
+  --bs-btn-color: #2c3e50;
+  --bs-btn-border-color: #2c3e50;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #2c3e50;
   --bs-btn-hover-border-color: #2c3e50;
@@ -12881,7 +12881,7 @@ html {
 }
 
 body {
-  color: #400909;
+  color: #2c3e50;
   background-color: var(--paper-white);
   background-image: url("https://www.transparenttextures.com/patterns/felt.png");
 }
@@ -12896,14 +12896,14 @@ body {
 }
 
 .text-primary {
-  /* color: #400909 !important; */
-  color: #400909 !important;
+  /* color: #2c3e50 !important; */
+  color: #2c3e50 !important;
 }
 
 .skill-tag {
   display: inline-block;
   background-color: #6f864b;
-  /*#400909; */
+  /*#2c3e50; */
   color: white;
   padding: 8px 18px;
   border-radius: 50px;
@@ -12915,7 +12915,7 @@ body {
 
 .skill-tag2 {
   display: inline-block;
-  background-color: #40090963;
+  background-color: #2c3e5063;
   color: white;
   padding: 8px 18px;
   border-radius: 50px;
