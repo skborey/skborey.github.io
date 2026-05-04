@@ -9150,8 +9150,6 @@ fieldset:disabled .btn {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-  border-top: 4px dashed #2A7B9B;
 }
 
 .bg-secondary {
