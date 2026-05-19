@@ -397,6 +397,38 @@ textarea {
   line-height: inherit;
 }
 
+.stack-button {
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(44, 62, 80, 0.15);
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: #2c3e50;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 0 rgba(44, 62, 80, 0.08);
+}
+
+.stack-button:hover,
+.stack-button:focus {
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.12);
+  outline: none;
+}
+
+.stack-button.active {
+  background-color: #2c3e50;
+  color: #ffffff;
+  border-color: #2c3e50;
+}
+
+.stack-content {
+  display: none;
+}
+
+.stack-content.active {
+  display: block;
+}
+
 button,
 select {
   text-transform: none;
