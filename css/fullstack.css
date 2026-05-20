@@ -49,6 +49,43 @@
   height: 1.1rem;
 }
 
+.connector-line {
+  position: absolute;
+  left: 50%;
+  bottom: 70%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 70px;
+  background-image: radial-gradient(circle, transparent 25%, #3cff7a 50%, transparent 25%);
+  background-size: 4px 14px;
+  background-repeat: repeat-y;
+}
+
+.connector-dot {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #3cff7a;
+  box-shadow: 0 0 14px rgba(60, 255, 122, 0.6);
+  animation: flow-up 5s ease-in-out infinite;
+}
+
+@keyframes flow-up {
+  from {
+    transform: translate(-50%, 0);
+    opacity: 0.2;
+  }
+
+  to {
+    transform: translate(-50%, -70px);
+    opacity: 1;
+  }
+}
+
 .diagram .col-2 {
   /* min-height: 50px; */
 }
