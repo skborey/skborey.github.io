@@ -72,4 +72,37 @@ window.addEventListener("DOMContentLoaded", (event) => {
       }
     });
   });
+
+  const diagram = document.querySelector("#fullstack .diagram");
+  const fullscreenButton = document.querySelector("#fullstack-fullscreen-btn");
+
+  function updateFullscreenButton() {
+    const isMaximized = diagram.classList.contains("maximized");
+    fullscreenButton.innerHTML = isMaximized
+      ? '<i class="fa-solid fa-compress"></i>'
+      : '<i class="fa-solid fa-expand"></i>';
+    fullscreenButton.title = isMaximized
+      ? "Restore diagram size"
+      : "Expand to browser area";
+  }
+
+  function enterFullscreen() {
+    diagram.classList.add("maximized");
+    updateFullscreenButton();
+  }
+
+  function exitFullscreen() {
+    diagram.classList.remove("maximized");
+    updateFullscreenButton();
+  }
+
+  fullscreenButton.addEventListener("click", () => {
+    if (diagram.classList.contains("maximized")) {
+      exitFullscreen();
+    } else {
+      enterFullscreen();
+    }
+  });
+
+  updateFullscreenButton();
 });
