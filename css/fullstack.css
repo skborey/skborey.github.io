@@ -148,15 +148,16 @@
   }
 }
 
-#fullstack .diagram2 {
+#fullstack .diagram {
   background: #fbfbf7;
   background-image:
     radial-gradient(circle, rgba(0, 0, 0, 0.08) 1px, transparent 1px),
     radial-gradient(circle, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
   background-position: 0 0, 10px 10px;
-  background-size: 20px 20px;
-  border-radius: 1rem;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+  background-size: 10px 10px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
 }
 
 .diagram .col-2 {
