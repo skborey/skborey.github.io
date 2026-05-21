@@ -161,6 +161,18 @@
   padding: 1.5rem;
 }
 
+#fullstack .diagram::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2rem;
+  height: 2rem;
+  border-left: 8px double #3cff7a;
+  border-bottom: 8px double #3cff7a;
+  box-sizing: border-box;
+}
+
 #fullstack .diagram-fullscreen-toggle {
   position: absolute;
   top: 1rem;
@@ -209,4 +221,20 @@
 
 .diagram .col-2 {
   /* min-height: 50px; */
+}
+
+.border-left {
+  border-left: 6px solid #3cff7a;
+  border-left-style: double;
+  border-left-width: 8px;
+}
+
+.border-bottom-left-radius {
+  border-bottom-left-radius: 80px 80px;
+}
+
+.border-bottom {
+  border-bottom: 6px solid #3cff7a;
+  border-bottom-style: double;
+  border-bottom-width: 8px;
 }
